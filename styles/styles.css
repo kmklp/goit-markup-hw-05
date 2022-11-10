@@ -516,6 +516,12 @@ border: 1px solid #EEEEEE;
 border-top: none;
 }
 
+    /*робота з іконами*/
+
+    .icon-fill{
+    fill :#212121;
+    }
+
  
 
 
