@@ -364,10 +364,34 @@ justify-content: space-between;
     /*Робота з іконами :)*/
 .list-icons{
  display:flex;
- justify-content: space-evenly;
- align-items: center;
- padding: ;
+ justify-content: center;
+ 
 }
+.employees-link{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 16px;
+width: 44px;
+height: 44px;
+color: #AFB1B8;
+background-color: #FFFFFF;
+border-radius: 50%;
+}
+.icon-card{
+  fill:currentColor;
+  
+}
+
+.employees-link:hover{
+  color:#FFFFFF;
+  background-color: #2196f3;
+}
+.icon-distnce-employees{
+display: flex;
+gap:10px;
+}
+
 
    /*Робота з підвалом*/
    /*розмітка підвала*/
