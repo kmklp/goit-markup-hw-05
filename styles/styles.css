@@ -361,6 +361,13 @@ justify-content: space-between;
  background: #FFFFFF;
  border-radius: 0px 0px 4px 4px;
 }
+    /*Робота з іконами :)*/
+.list-icons{
+ display:flex;
+ justify-content: space-evenly;
+ align-items: center;
+ padding: ;
+}
 
    /*Робота з підвалом*/
    /*розмітка підвала*/
