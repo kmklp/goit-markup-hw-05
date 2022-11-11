@@ -519,6 +519,10 @@ border-top: none;
     /*робота з іконами*/
 
     .icon-fill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     fill :#212121;
     }
 
