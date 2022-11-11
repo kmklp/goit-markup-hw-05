@@ -250,6 +250,7 @@ display: flex;
 .about-list{
 display: flex;
 align-items: flex-start;
+gap:30px;
 padding-left: 0px;
 }
 
@@ -263,10 +264,11 @@ padding-bottom: 0px;
 padding-left: 0px;
 }
 
-.about-header-content{
- box-sizing:calc((100%-30px*3)/4);
-}
 
+
+.about-header-content:last-child{
+    margin-right: 0px;
+  }
 
 .title{
   font-weight: 700;
@@ -290,6 +292,8 @@ padding-left: 0px;
 }
      /* Робота з іконами :) */
 .about-icon{
+  display: flex;
+  align-items: center;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
