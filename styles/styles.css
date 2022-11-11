@@ -243,6 +243,7 @@ height: 50px;
     /*Робота з другою секцією*/
     /*розмітка*/
 .about-container{
+
 display: flex;
 }
 
@@ -263,8 +264,9 @@ padding-left: 0px;
 }
 
 .about-header-content{
-  flex-basis:calc((100%-30px*3)/4);
+ box-sizing:calc((100%-30px*3)/4);
 }
+
 
 .title{
   font-weight: 700;
@@ -286,6 +288,17 @@ padding-left: 0px;
 .about-header{
   margin-bottom:10px;
 }
+     /* Робота з іконами :) */
+.about-icon{
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background: #F5F4FA;
+border-radius: 4px;
+
+}
+  
+
 
     /*третя секція Img*/
     /*розмітка третьої секції*/
@@ -549,13 +562,7 @@ border-top: none;
 
     /*робота з іконами*/
 
-    .icon-fill{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    fill :#212121;
-    }
+    
 
  
 
