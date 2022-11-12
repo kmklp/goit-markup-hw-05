@@ -400,7 +400,8 @@ border-radius: 50%;
   
 }
 
-.employees-link:hover{
+.employees-link:hover,
+.employees-link:focus{
   color:#FFFFFF;
   background-color: #2196f3;
 }
@@ -410,8 +411,34 @@ gap:10px;
 }
 
      /*Додав секцію та ікони - Постійні клієнти*/
+.client-distance{
+ gap:30px;
+}
+.client-link{
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px ;
+  color:#AFB1B8;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  background-color: #FFFFFF;
 
+}
+.icon-client{
+fill:currentColor;
+}
+.icon-client:hover,
+.icon-client:focus{
+  color:#2196F3;
+}
+.client-link:hover,
+.client-link:focus{
+  color:#2196F3;
+  border-color: #2196F3;
+ }
 
    /*Робота з підвалом*/
    /*розмітка підвала*/
