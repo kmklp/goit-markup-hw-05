@@ -401,7 +401,9 @@ border-radius: 50%;
 }
 
 .employees-link:hover,
-.employees-link:focus{
+.employees-link:focus,
+.footer-link:hover,
+.footer-link:focus{
   color:#FFFFFF;
   background-color: #2196f3;
 }
@@ -442,7 +444,11 @@ fill:currentColor;
 
    /*Робота з підвалом*/
    /*розмітка підвала*/
-
+.half{
+display: flex;
+gap:70px;
+align-items: center;
+}
 .list-footer{
 display:flex;
 padding-left: 0px;
@@ -452,6 +458,7 @@ flex-direction: column;
 display: flex;
 padding: 0px 0px;
 margin-bottom: 20px;
+margin-right: 0px;
 
 }
 .footer{
@@ -487,6 +494,43 @@ color: rgba(255, 255, 255, 0.6);
 .footer-tel{
 margin-bottom: 0px;
 }
+          /*Іконки підвалу*/
+.title-footer{
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.footer-icons{
+  display: flex;;
+  gap:10px;
+}
+.footer-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  }
+  .icon-footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   fill:#FFFFFF;
+  }
+  .icon-center{
+  display: flex;
+  flex-direction: column;
+
+  }
 
      /*СТИЛІ ДЛЯ ПОРТФОЛІО*/
 
