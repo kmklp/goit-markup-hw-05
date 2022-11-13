@@ -400,13 +400,13 @@ justify-content: space-between;
 .list-icons{
  display:flex;
  justify-content: center;
+ margin-top: 16px;
  
 }
 .employees-link{
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 16px;
 width: 44px;
 height: 44px;
 color: #AFB1B8;
@@ -439,8 +439,8 @@ gap:10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
-  height: 92px ;
+  width: 100%;
+  height: 100% ;
   color:#AFB1B8;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
@@ -465,7 +465,7 @@ fill:currentColor;
 .half{
 display: flex;
 gap:70px;
-align-items: center;
+align-items: baseline;
 }
 .list-footer{
 display:flex;
