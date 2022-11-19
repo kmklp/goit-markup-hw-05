@@ -55,11 +55,14 @@ background: var(--colorfont-hiro) ;
 .link:focus{
   fill:#2196F3 ;
 color:#2196F3;
+transition-duration:250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-first-btn:hover,
 .link-first-btn:focus{
      font-family: inherit;
      background: #2196F3;
+     
 }
 
 
@@ -336,7 +339,7 @@ height: 70px;
   
 
 
-    /*третя секція Img*/
+    /*третя секція Img чим ми займаємось*/
     /*розмітка третьої секції*/
 
 .section-title{
@@ -360,6 +363,37 @@ justify-content: space-between;
 margin-top: 50px;
 padding-left: 0px;
 }
+     /*Робота з текст з фоном спозиційований поверх зображення*/
+.box-img{
+  display:flex;
+  justify-content: center;
+  align-items:flex-end;
+  
+}
+
+.text-img{
+
+  width: 370px;
+  padding: 27px;
+  position: absolute;
+  
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: calc(16 / 14);
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+  background-image:linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8));
+
+}   
+       
+
       /*четверта секция-наши сотрудники(section-employees)*/
       /*розмітка четвертої секції*/
 .employees-title{
@@ -442,6 +476,8 @@ border-radius: 0px 0px 4px 4px;
 .footer-link:focus{
   color:#FFFFFF;
   background-color: #2196f3;
+  transition-duration:250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-distnce-employees{
 display: flex;
@@ -474,6 +510,8 @@ fill:currentColor;
 .client-link:focus{
   color:#2196F3;
   border-color: #2196F3;
+  transition-duration:250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  }
 
    /*Робота з підвалом*/
@@ -601,6 +639,8 @@ margin-right: 8px;
    cursor: pointer;
    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
    border-radius: 4px;
+   transition-duration:250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-container{
 display: block;
@@ -668,6 +708,8 @@ border-top: none;
 .shadow-portfolio:hover,
 .shadow-portfolio:focus{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition-duration:250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
   
