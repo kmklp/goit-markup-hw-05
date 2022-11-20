@@ -385,12 +385,13 @@ padding-left: 0px;
   display:flex;
   justify-content: center;
   align-items:flex-end;
+
   
 }
 
 .text-img{
 
-  width: 370px;
+  width: 370px; ;
   padding: 27px;
   position: absolute;
   
@@ -734,6 +735,7 @@ position:relative;
 overflow:hidden
 }
 .overlay{
+  content: "";
  display: flex;
   align-items:center ;
   padding: 0px 24px;
