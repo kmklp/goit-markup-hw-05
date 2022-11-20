@@ -134,8 +134,10 @@ padding-right:auto;
 margin-right: 50px;
 }
 
-
+          
 .header-nav-link{
+  display: inline-flex;
+  position: relative;
   padding: 24px 0px;
   
 
@@ -144,7 +146,23 @@ margin-right: 50px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
    color: #212121;
+}                         /*додав в header-nav-link лінію з низу при ховері*/
+.header-nav-link:hover::after{
+  display: inline-flex;
+ position: absolute; 
+ content: "";
+ top:68px;
+ 
+width: 100%;
+height: 4px;
+background: #2196F3;
+border-radius: 2px;
 }
+
+
+
+
+
 
       /* розмитка для тел и пошти*/
 .list-item{
@@ -711,14 +729,21 @@ border-top: none;
   transition-duration:250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+         /*робота з owerlay*/
+.box-overlay{
+position:relative;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3f51b5;
+  transform: translateY(100%);
+}
+.box:hover .overlay {
+  transform: translateY(0);
+}
 
-  
 
-    
-
- 
-
-
-
-
-    
