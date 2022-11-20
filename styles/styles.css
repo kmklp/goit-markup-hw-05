@@ -286,8 +286,7 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 }
-.gradient{
-}
+
  
     /*Робота з другою секцією*/
     /*розмітка*/
@@ -732,18 +731,39 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
          /*робота з owerlay*/
 .box-overlay{
 position:relative;
+overflow:hidden
 }
 .overlay{
+ display: flex;
+  align-items:center ;
+  padding: 0px 24px;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #3f51b5;
+  background-color:rgba(33, 150, 243, 0.9);;
   transform: translateY(100%);
 }
-.box:hover .overlay {
-  transform: translateY(0);
+.hover-portfolio:hover .overlay {
+  transform: translateY(0%);
+  transition-duration:250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.overlay-text{
+   
+  
+  position: absolute;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  
+  letter-spacing: 0.03em;
+  
+  color: #FFFFFF;
 }
 
 
