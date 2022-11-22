@@ -65,7 +65,7 @@
             Ефективні рішення <br>для вашого бізнесу
         </h1>
     
-        <button class="btn-hero section-first-btn" type="button">замовити послугу</button>
+        <button class="btn-hero section-first-btn" type="button" data-modal-open >замовити послугу</button>
         
     </section>
     
@@ -435,16 +435,19 @@
     
     </footer>
           <!--Створюємо модальне вікно-->
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button class="btn-close" type="button"></button>
-             <svg class="btn-close-icon" widht="18" heigth="18">
-               <use href="./img/icons/icomoon-close-modal/symbol-defs.svg#icon-Vector-1"></use>
+            <button class="btn-close" type="button" data-modal-close>
+                <svg class="btn-close-icon" widht="30" heigth="30">
+             
+               <use href="./img/icons/icomoon-close-modal/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
+       
              </svg>
+            </button> 
         </div>
     </div>
 
 
-    
+    <script src="./"></script>
 </body> 
 </html>
