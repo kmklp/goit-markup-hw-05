@@ -636,7 +636,7 @@ color: #FFFFFF;
   visibility: visible;
   pointer-events: initial;
 
-  transition: opacity 150ms linear, visibility 150ms linear ;
+  transition: opacity 50ms linear, visibility 50ms linear ;
 }
 .backdrop.is-hidden{
 opacity:0;
